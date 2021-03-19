@@ -23,7 +23,7 @@ var final = []
 function generatePassword() {
 
  //setting up prompts/confirms 
- var charAmount = Number(window.prompt("How many characters would you like?", "Character Amount?"));
+ var charAmount = Number(window.prompt("How many characters would you like between 8-128?", "Character Amount?"));
  
  if (charAmount < 8 || charAmount > 128) {
 confirm("Password must contain 8-128 characters")
@@ -49,6 +49,16 @@ if (specCharacters) {
 }
 
 //all variables are concat'd into final array
+
+var index = Math.floor(Math.random() * final.length);
+  for (var i = 0; i < charAmount; i++) {
+   console.log(final[i])
+  }
+
+
+
+
+
 
 
 
