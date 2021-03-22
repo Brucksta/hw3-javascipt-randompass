@@ -9,4 +9,7 @@ Testing my script, I found that any way I clicked through my prompts, my ""FINAL
 My next challenge was to work through the actual password generation. This was tough...
 I used many different methods random generation, linked with looping through my array. I used a lot of googling and watched many a youtube video, and along with all that and some final advice from my lecturer, I managed to += into a final array which would generate the user amount of random characters, based of their picks!
 
+![image](https://user-images.githubusercontent.com/78789156/111969220-e96c6280-8b49-11eb-90b0-8cd635d58df9.png)
+
+
 A copy of my deployed password generator can be found here: https://brucksta.github.io/hw3-javascipt-randompass/
