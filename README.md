@@ -1,4 +1,4 @@
-<h2>Homework Week 3 - Random Password Generator<h2>
+<h2>Homework Week 3 - Random Password Generator</h2>
   
 This week ive been tasked with creating a random password generator, that is user defined with which kinds of characters and how long they want the password to be.
 To start with, I was given code to work with, which set up the html and the css, just requiring me to write the fuctional javascript to make the password generate.
