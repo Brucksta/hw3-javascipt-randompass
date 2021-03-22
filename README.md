@@ -12,4 +12,6 @@ I used many different methods random generation, linked with looping through my 
 ![image](https://user-images.githubusercontent.com/78789156/111969220-e96c6280-8b49-11eb-90b0-8cd635d58df9.png)
 
 
+Through this assignment I learnt a lot about conjoin different things ive learnt, like random functions, loops, promts and confirms, and how I can add them all together and make them work together. Before this assignment it was the biggest flaw in my knowledge, was how I can use many different functions and make them work together to create really cool applications like this one!
+
 A copy of my deployed password generator can be found here: https://brucksta.github.io/hw3-javascipt-randompass/
