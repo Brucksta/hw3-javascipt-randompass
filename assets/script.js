@@ -26,14 +26,11 @@ function generatePassword() {
 
  //setting up character amount
  var charAmount = Number(window.prompt("How many characters would you like between 8-128?", "Character Amount?"));
-  console.log(charAmount)
   if (Number.isNaN(charAmount))
   {
-    console.log("hello")
     while ((charAmount < 8 || charAmount > 128) && Number.isNaN(charAmount)) {
       confirm("Password must contain 8-128 characters")
       charAmount = Number(window.prompt("How many characters would you like?"))
-      console.log(charAmount)
     }
   }
   // setting up prompts
