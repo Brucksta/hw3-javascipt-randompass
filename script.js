@@ -24,7 +24,7 @@ var passwordString = []
 
 function generatePassword() {
 
- //setting up prompts/confirms
+ //setting up character amount
  var charAmount = Number(window.prompt("How many characters would you like between 8-128?", "Character Amount?"));
   console.log(charAmount)
   if (Number.isNaN(charAmount))
@@ -36,7 +36,7 @@ function generatePassword() {
       console.log(charAmount)
     }
   }
-  
+  // setting up prompts
   var hasLowercase = window.confirm("Would you like Lowercase letters?", "Lowercase?");
   if (hasLowercase) {
     final = final.concat(lowerLetters)
